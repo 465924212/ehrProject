@@ -1,0 +1,387 @@
+{
+  "contractName": "repository",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a72305820b18f3526f3f5f0c4a6d6ad60679237d58825f17920cb5780f843686cb27466b00029",
+  "deployedBytecode": "0x6080604052600080fd00a165627a7a72305820b18f3526f3f5f0c4a6d6ad60679237d58825f17920cb5780f843686cb27466b00029",
+  "sourceMap": "30:175:5:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;30:175:5;;;;;;;",
+  "deployedSourceMap": "30:175:5:-;;;;;",
+  "source": "pragma solidity ^0.4.25;\r\n\r\n\r\ncontract repository {\r\n    struct Record {\r\n        uint256 id;\r\n        uint256 time;\r\n        string symtom;\r\n        string diagnosis;\r\n        address signature;\r\n    }\r\n}",
+  "sourcePath": "A:\\Ethereum\\ehrProject\\contracts\\repo.sol",
+  "ast": {
+    "absolutePath": "/A/Ethereum/ehrProject/contracts/repo.sol",
+    "exportedSymbols": {
+      "repository": [
+        675
+      ]
+    },
+    "id": 676,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 663,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".25"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:5"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 675,
+        "linearizedBaseContracts": [
+          675
+        ],
+        "name": "repository",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "repository.Record",
+            "id": 674,
+            "members": [
+              {
+                "constant": false,
+                "id": 665,
+                "name": "id",
+                "nodeType": "VariableDeclaration",
+                "scope": 674,
+                "src": "82:10:5",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 664,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "82:7:5",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 667,
+                "name": "time",
+                "nodeType": "VariableDeclaration",
+                "scope": 674,
+                "src": "103:12:5",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 666,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "103:7:5",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 669,
+                "name": "symtom",
+                "nodeType": "VariableDeclaration",
+                "scope": 674,
+                "src": "126:13:5",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 668,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "126:6:5",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 671,
+                "name": "diagnosis",
+                "nodeType": "VariableDeclaration",
+                "scope": 674,
+                "src": "150:16:5",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 670,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "150:6:5",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 673,
+                "name": "signature",
+                "nodeType": "VariableDeclaration",
+                "scope": 674,
+                "src": "177:17:5",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                },
+                "typeName": {
+                  "id": 672,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "177:7:5",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "Record",
+            "nodeType": "StructDefinition",
+            "scope": 675,
+            "src": "57:145:5",
+            "visibility": "public"
+          }
+        ],
+        "scope": 676,
+        "src": "30:175:5"
+      }
+    ],
+    "src": "0:205:5"
+  },
+  "legacyAST": {
+    "absolutePath": "/A/Ethereum/ehrProject/contracts/repo.sol",
+    "exportedSymbols": {
+      "repository": [
+        675
+      ]
+    },
+    "id": 676,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 663,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".25"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:5"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 675,
+        "linearizedBaseContracts": [
+          675
+        ],
+        "name": "repository",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "repository.Record",
+            "id": 674,
+            "members": [
+              {
+                "constant": false,
+                "id": 665,
+                "name": "id",
+                "nodeType": "VariableDeclaration",
+                "scope": 674,
+                "src": "82:10:5",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 664,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "82:7:5",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 667,
+                "name": "time",
+                "nodeType": "VariableDeclaration",
+                "scope": 674,
+                "src": "103:12:5",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 666,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "103:7:5",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 669,
+                "name": "symtom",
+                "nodeType": "VariableDeclaration",
+                "scope": 674,
+                "src": "126:13:5",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 668,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "126:6:5",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 671,
+                "name": "diagnosis",
+                "nodeType": "VariableDeclaration",
+                "scope": 674,
+                "src": "150:16:5",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 670,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "150:6:5",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 673,
+                "name": "signature",
+                "nodeType": "VariableDeclaration",
+                "scope": 674,
+                "src": "177:17:5",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                },
+                "typeName": {
+                  "id": 672,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "177:7:5",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "Record",
+            "nodeType": "StructDefinition",
+            "scope": 675,
+            "src": "57:145:5",
+            "visibility": "public"
+          }
+        ],
+        "scope": 676,
+        "src": "30:175:5"
+      }
+    ],
+    "src": "0:205:5"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.25+commit.59dbf8f1.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.0",
+  "updatedAt": "2018-12-31T15:18:50.843Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

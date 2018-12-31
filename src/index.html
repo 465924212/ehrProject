@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Electronic Health Records DApp</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="./scripts/app.js"></script>
+    <script src="./helper/web3.min.js"></script>
+    <script src="./helper/truffle-contract.js"></script>
+  </head>
+
+  <body>
+    <h1 class="text-center">Welcome to Electronic Health Records DApp</h1>
+    <p>
+      <input type="radio" name="accountType" id="patient" value="p" checked="true" /> Patient
+      <input type="radio" name="accountType" id="doctor" value="d"/> Doctor
+    </p>
+    <form id="create" style="display:block">
+      <p>
+        <input type="text" id="name" placeholder="Your name">
+        <input type="text" id="age" placeholder="Your age">
+        <input type="text" id="gender" placeholder="Your gender">
+        <input type="button" id="create" value="CREATE ACOOUNT">
+      </p>
+    </form>
+    <input type="button" id="hadAccount" value="HAVE ACCOUNT">
+    <form id="inter-patient" style="display:none">
+      <p>
+        <input type="text" id="doctorAddress" placeholder="Doctor's address">
+        <input type="button" id="approve" value="APPROVE ACCESS">
+        <input type="button" id="disapprove" value="CANCEL ACCESS">
+      </p>
+    </form>
+    <form id="inter-doctor" style="display:none">
+      <p>
+        <input type="text" id="patientAddress" placeholder="Patient's address">
+        <input type="text" id="symtom" placeholder="Symtoms">
+        <input type="text" id="diagnosis" placeholder="Diagnosis">
+      </p>
+      <p>
+        <input type="button" id="add" value="ADD RECORD">
+      </p>
+    </form>
+  </body>
+</html>
